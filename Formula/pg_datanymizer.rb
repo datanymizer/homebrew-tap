@@ -1,15 +1,15 @@
 class PgDatanymizer < Formula
   desc "Powerful database anonymizer with flexible rules. Written in Rust."
   homepage "https://github.com/datanymizer/datanymizer"
-  version "0.3.1"
+  version "0.4.0"
 
   stable do
     if OS.mac?
-      url "https://github.com/datanymizer/datanymizer/releases/download/v0.3.1/pg_datanymizer-darwin-x86_64.tar.gz"
-      sha256 "6243468aa6fbd23f0b02ea70f4ca6640c0167aac515bd57d81779089549dc5e3"
+      url "https://github.com/datanymizer/datanymizer/releases/download/v0.4.0/pg_datanymizer-darwin-x86_64.tar.gz"
+      sha256 "6bf6ed962cab7d3af3dadcbf80100016bbb479c6c16b5ac8f3d9c5b14f48a217"
     elsif OS.linux?
-      url "https://github.com/datanymizer/datanymizer/releases/download/v0.3.1/pg_datanymizer-linux-x86_64.tar.gz"
-      sha256 "b2f2caee9e9a28eff5b00b3c7c755df7b114ae7b4ec03fa9f7d2490498224e43"
+      url "https://github.com/datanymizer/datanymizer/releases/download/v0.4.0/pg_datanymizer-linux-x86_64.tar.gz"
+      sha256 "c2fd1ed0d80f8750e394039997fbf67d919e4bf5bbe0e4494831be9add676d0a"
     end
   end
 
